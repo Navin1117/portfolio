@@ -85,7 +85,7 @@ const Contact = () => {
         )}
         </form>
       </div>
-          <div className='footer'>Made with love <i class="fas fa-heart" style={{color:'red'}}></i>
+          <div className='footer'>Made with love <i class="fas fa-heart" style={{color:'red'}}></i>by Naveen
           </div>
     </section>
   );
