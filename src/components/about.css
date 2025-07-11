@@ -1,0 +1,157 @@
+#about {
+  background-color: #191919 !important;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  padding: 20px 20px 15px 20px;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #ccc;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.section p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.education {
+  margin-top: 50px;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.clgname, .branch {
+  display: flex;
+  margin-left: 400px;
+  align-items: center;
+
+  color: #666;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 1025px){
+ 
+}
+.clgname .duration{
+  margin-left: 500px;
+}
+
+
+.time{
+  font-size: 0.9rem;
+  background-color: #d7ffe0;
+  padding: 5px 10px;
+  border-radius: 50px;
+  color: green;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.intro img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.intro h2 {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+
+@media (max-width: 1024px) {
+  
+  .section {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+
+  .clgname, .branch {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .branch, .clgname {
+    align-items:baseline;
+    
+  }
+
+  .time, .duration {
+    margin-left: auto;
+   
+  }
+}
+
+@media (max-width: 600px) {
+ 
+  .section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .section h2 {
+    font-size: 2rem;
+  }
+
+  .section p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .clgname, .branch {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  
+
+  
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .intro h2 {
+    font-size: 1.2rem;
+  }
+
+  .intro img {
+    width: 100px;
+    height: 100px;
+  }
+}
