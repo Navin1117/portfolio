@@ -42,10 +42,7 @@ const Skills = () => {
           <img src={expressLogo} alt="Express.js" />
           <p>Express.js</p>
         </div>
-        <div className="skill">
-          <img src={mongoLogo} alt="MongoDB" />
-          <p>MongoDB</p>
-        </div>
+       
         <div className="skill">
           <img src={mysqlLogo} style={{height:'90px'}} alt="mySQL" />
           <p>mySQL</p>
