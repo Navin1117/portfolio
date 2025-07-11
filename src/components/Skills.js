@@ -7,7 +7,7 @@ import jsLogo from './javascript.png';
 import reactLogo from './reactjs.png';
 import nodeLogo from './nodejs.png';
 import expressLogo from './expressjs.png';
-import mongoLogo from './mongodb.png';
+
 import javaLogo from './java.png';
 import vscodeLogo from './vscode.png';
 import mysqlLogo from './mysql.png';
