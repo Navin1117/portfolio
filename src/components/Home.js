@@ -18,7 +18,14 @@ const Home = () => {
         <h1 className="slide-in" style={{ animationDelay: '1.1s' }}>Full Stack Developer</h1>
         <div className="buttons">
           <button className="slide-in hire-button" style={{ animationDelay: '1.4s' }}  onClick={handleEmailClick}>Hire Me!</button>
-          <button className="slide-in resume-button" style={{ animationDelay: '1.4s' }}>View Resume</button>
+          <a 
+  href="/Naveen-Resume1.pdf" 
+  download="Naveen-Resume1.pdf" 
+  className="slide-in resume-button btn btn-primary"
+  style={{ animationDelay: '1.4s' , textDecoration: 'none'}}
+>
+  View Resume
+</a>
         </div>
         <div className="social-icons" style={{ animationDelay: '0.5s' }}>
         <a href="https://linkedin.com/in/naveen-chouhan-48075a245" target="_blank" rel="noopener noreferrer" className="slide-in">

@@ -11,28 +11,28 @@ const projects = [
     image: portfolio, 
     description: 'Tech Stack: React, CSS, Nodejs, expressjs',
     liveLink: 'https://navin1117.github.io/portfolio/', 
-    codeLink: '#', 
+    codeLink: 'https://github.com/Navin1117/portfolio.git', 
   },
   {
     title: 'Lightbox Image Gallary',
     image: lightboxImage,
     description: 'Tech Stack: HTML, CSS, Javascript',
     liveLink: 'https://navin1117.github.io/lightbox-gallery/', 
-    codeLink: '#',
+    codeLink: 'https://github.com/Navin1117/lightbox-gallery.git',
   },
   {
     title: 'Todo List',
     image: todoImage,
     description: 'Tech Stack: HTML, CSS, Javascript',
     liveLink: 'https://navin1117.github.io/todo/',
-    codeLink: '#',
+    codeLink: 'https://github.com/Navin1117/todo.git',
   },
   {
     title: 'Weather App',
     image: weatherImage, 
     description: 'Tech Stack: HTML, CSS, Javascript',
     liveLink: 'https://navin1117.github.io/weather/',
-    codeLink: '#',
+    codeLink: 'https://github.com/Navin1117/weather.git',
   }
  
 ];

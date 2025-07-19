@@ -38,7 +38,9 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${showNavbar ? 'visible' : 'hidden'}`}>
-      <h3><img src={logo} alt="Naveen Chouhan" /></h3>
+      <h3> <a href="/" style={{ textDecoration: 'none' }}>
+    <img src={logo} alt="Naveen Chouhan" />
+  </a></h3>
       <div className="hamburger" onClick={toggleMenu}>
         <span></span>
         <span></span>
