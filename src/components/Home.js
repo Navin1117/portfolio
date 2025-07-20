@@ -1,6 +1,5 @@
 
-import myPhoto from './photo1.png'; 
-import React from 'react';
+import myPhoto from './phto.jpg';
 import './home.css'; 
 
 
