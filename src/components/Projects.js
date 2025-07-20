@@ -13,13 +13,13 @@ const projects = [
     liveLink: 'https://navin1117.github.io/portfolio/', 
     codeLink: 'https://github.com/Navin1117/portfolio.git', 
   },
-  {
+  /* {
     title: 'Lightbox Image Gallary',
     image: lightboxImage,
     description: 'Tech Stack: HTML, CSS, Javascript',
     liveLink: 'https://navin1117.github.io/lightbox-gallery/', 
     codeLink: 'https://github.com/Navin1117/lightbox-gallery.git',
-  },
+  }, */
   {
     title: 'Todo List',
     image: todoImage,
