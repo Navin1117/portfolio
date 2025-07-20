@@ -2,7 +2,6 @@
 import myPhoto from './phto.jpg';
 import './home.css'; 
 
-
 const Home = () => {
   const handleEmailClick = () => {
     window.location.href = "mailto:naveendchouhan1117@gmail.com?subject=Hiring Inquiry&body=Hi Naveen, I'd like to discuss a potential hire.";
@@ -18,8 +17,8 @@ const Home = () => {
         <div className="buttons">
           <button className="slide-in hire-button" style={{ animationDelay: '1.4s' }}  onClick={handleEmailClick}>Hire Me!</button>
           <a 
-  href="/Naveen-Resume1.pdf" 
-  download="Naveen-Resume1.pdf" 
+  href="/resume.pdf" 
+  download="resume.pdf" 
   className="slide-in resume-button btn btn-primary"
   style={{ animationDelay: '1.4s' , textDecoration: 'none'}}
 >
