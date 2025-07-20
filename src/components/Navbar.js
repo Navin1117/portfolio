@@ -38,7 +38,7 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${showNavbar ? 'visible' : 'hidden'}`}>
-      <h3> <a href="/" style={{ textDecoration: 'none' }}>
+      <h3> <a href="https://Navin1117.github.io/portfolio/" style={{ textDecoration: 'none' }}>
     <img src={logo} alt="Naveen Chouhan" />
   </a></h3>
       <div className="hamburger" onClick={toggleMenu}>
