@@ -17,12 +17,12 @@ const Home = () => {
         <div className="buttons">
           <button className="slide-in hire-button" style={{ animationDelay: '1.4s' }}  onClick={handleEmailClick}>Hire Me!</button>
           <a 
-  href="/resume.pdf" 
+  href="https://navin1117.github.io/portfolio/resume.pdf"
   download="resume.pdf" 
   className="slide-in resume-button btn btn-primary"
   style={{ animationDelay: '1.4s' , textDecoration: 'none'}}
 >
-  Download Resume
+  View Resume
 </a>
         </div>
         <div className="social-icons" style={{ animationDelay: '0.5s' }}>
