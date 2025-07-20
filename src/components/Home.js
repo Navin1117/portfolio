@@ -23,7 +23,7 @@ const Home = () => {
   className="slide-in resume-button btn btn-primary"
   style={{ animationDelay: '1.4s' , textDecoration: 'none'}}
 >
-  View Resume
+  Download Resume
 </a>
         </div>
         <div className="social-icons" style={{ animationDelay: '0.5s' }}>
